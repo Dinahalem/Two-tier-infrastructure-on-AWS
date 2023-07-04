@@ -10,5 +10,5 @@ variable "PRI_SUB_6_B_CIDR" {}
 variable "DB_USERNAME" {}
 variable "DB_PASSWORD" {}
 
-variable "CERTIFICATE_DOMAIN_NAME" {}
+#variable "CERTIFICATE_DOMAIN_NAME" {}
 variable "ADDITIONAL_DOMAIN_NAME" {}
