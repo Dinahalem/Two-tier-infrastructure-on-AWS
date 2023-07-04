@@ -35,7 +35,7 @@ module "SG" {
   VPC_ID = module.VPC.VPC_ID
 }
 
-# createing Key for instaces
+# creating Key for instaces
 
 module "KEY" {
   source = "../modules/key"
@@ -43,12 +43,12 @@ module "KEY" {
 
 # launching JUMP server or Bastion host 
 
-#module "SERVER" {
-  #source         = "../modules/ec2"
-  #JUMP_SG_ID     = module.SG.JUMP_SG_ID
-  #PUB_SUB_1_A_ID = module.VPC.PUB_SUB_1_A_ID
-  #KEY_NAME       = module.KEY.KEY_NAME
-#}
+module "SERVER" {
+  source         = "../modules/ec2"
+  JUMP_SG_ID     = module.SG.JUMP_SG_ID
+  PUB_SUB_1_A_ID = module.VPC.PUB_SUB_1_A_ID
+  KEY_NAME       = module.KEY.client_key
+}
 
 # Creating Application Load balancer
 
