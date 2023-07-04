@@ -1,7 +1,6 @@
 # Two-tier-infrastructure-on-AWS
 
 Here's a list of AWS services I utilized
-🔹 🔏 Certificate Manager (SSL)
 🔹 🌐 Route 53 (DNS service)
 🔹 🌍 CloudFront (CDN)
 🔹 💻 EC2 (Server)
@@ -10,3 +9,4 @@ Here's a list of AWS services I utilized
 🔹 🗄️ RDS (Relational database services: Database)
 🔹 🚀 DynamoDB (State-locking for tfstate file)
 🔹 ☁️ Amazon S3 (Storing backend and achieving versioning)
+
