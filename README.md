@@ -1,5 +1,7 @@
 # Two-tier-infrastructure-on-AWS
 
+**I improved my knowledge of cloud architecture by using Terraform to create a Two-tier infrastructure on AWS.
+
 Here's a list of AWS services I utilized
 🔹 🌐 Route 53 (DNS service)
 🔹 🌍 CloudFront (CDN)
