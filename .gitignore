@@ -1,1 +1,2 @@
 book_shop_app/*.tfvars    #add variables here
+book_shop_app/*.tfstate
